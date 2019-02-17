@@ -67,9 +67,9 @@ sudo make install
 sudo make configs
 
 #copy config files
-cp /opt/fruitnanny/configuration/janus/janus.cfg /usr/local/etc/janus
-cp /opt/fruitnanny/configuration/janus/janus.plugin.streaming.cfg /usr/local/etc/janus
-cp /opt/fruitnanny/configuration/janus/janus.transport.http.cfg /usr/local/etc/janus
+sudo cp /opt/fruitnanny/configuration/janus/janus.cfg /usr/local/etc/janus
+sudo cp /opt/fruitnanny/configuration/janus/janus.plugin.streaming.cfg /usr/local/etc/janus
+sudo cp /opt/fruitnanny/configuration/janus/janus.transport.http.cfg /usr/local/etc/janus
 
 #create ssl certs for janus and nignx
 cd /usr/local/share/janus/certs
