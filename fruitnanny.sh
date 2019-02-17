@@ -29,8 +29,9 @@ sudo rpi-update
 
 # Turn off wireless-power
 sudo iw dev wlan0 set power_save off
-vim /etc/network/interfaces
-wireless-power off
+#doing this manually, add this line to this file
+#vim /etc/network/interfaces
+#wireless-power off
 
 # Enable raspberrypi.local
 sudo apt-get install avahi-daemon
