@@ -23,7 +23,7 @@ sudo rpi-update
 #setup wifi
 sudo iw dev wlan0 set power_save off
 #add line to interfaces
-sudo nano -y /etc/network/interfaces
+sudo nano /etc/network/interfaces
 #add "wireless-power off"
 
 #local access
