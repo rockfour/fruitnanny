@@ -1,5 +1,6 @@
 #2
 # install basic software
+cd
 sudo apt-get update
 sudo apt-get install vim git nano emacs libraspberrypi-dev autoconf automake libtool pkg-config alsa-base alsa-tools alsa-utils
 
