@@ -94,6 +94,6 @@ sudo ln -s /etc/nginx/sites-available/fruitnanny_https /etc/nginx/sites-enabled/
 
 #add security credintials
 sudo sh -c "echo -n 'winnie:' >> /etc/nginx/.htpasswd"
-sudo sh -c "openssl pooh -apr1 >> /etc/nginx/.htpasswd"
+sudo sh -c "openssl passwd -apr1 >> /etc/nginx/.htpasswd"
 
 #finish
