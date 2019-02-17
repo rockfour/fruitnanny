@@ -60,11 +60,13 @@ pm2 start server/app.js --name="fruitnanny"
 sudo apt-get install libmicrohttpd-dev libjansson-dev libnice-dev \
     libssl-dev libsofia-sip-ua-dev libglib2.0-dev \
     libopus-dev libogg-dev pkg-config gengetopt
-wget https://github.com/cisco/libsrtp/archive/v2.1.0.tar.gz
-tar xfv v2.1.0.tar.gz
-cd libsrtp-2.1.0
-./configure --prefix=/usr --enable-openssl
-make shared_library && sudo make install
+#not anymore needed, replacing with
+sudo apt-get -y install libsrtp2-dev
+#wget https://github.com/cisco/libsrtp/archive/v2.1.0.tar.gz
+#tar xfv v2.1.0.tar.gz
+#cd libsrtp-2.1.0
+#./configure --prefix=/usr --enable-openssl
+#make shared_library && sudo make install
 
 
 # Install janus
