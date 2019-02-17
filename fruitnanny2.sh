@@ -5,7 +5,7 @@ sudo apt-get update
 sudo apt-get install vim git nano emacs libraspberrypi-dev autoconf automake libtool pkg-config alsa-base alsa-tools alsa-utils
 
 #install nodejs
-curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -sudo apt install -y nodejs
+#curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -sudo apt install -y nodejs
 #downloading tar file instead
 cd
 wget https://nodejs.org/dist/v10.15.1/node-v10.15.1-linux-armv6l.tar.xz
